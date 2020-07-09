@@ -1,0 +1,221 @@
+<html>
+<head>
+<title>SIGNUP FORM</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body
+{
+        background-image:url(hotel.png); 
+        width:100%;
+        height:100%;
+       background-repeat:no-repeat;
+        background-size:cover;
+}
+.wrap
+{
+       width:350px;
+       margin:auto;
+       background:;
+       margin-top:10px;
+      padding:5px;
+}
+form
+{
+         padding:10px;
+        font-family:arial;
+         border:2px dotted white;
+ }
+h2
+{
+        text-align:center;
+        background:yellow;
+       border-radius:10px;
+       font-size:30px;
+}
+input
+{
+        padding:5px;
+        margin:5px;
+       border-radius:5px;
+}
+input[type=submit],input[type=email],input[type=number],input[type=password],input[type=text]
+{
+      
+width:90%;
+}
+input[type=submit]
+{
+        background:green;
+}
+input [type=submit]:hover
+{
+
+     background:blue;
+}
+</style>
+</head>
+<body>
+<header>
+            <nav>
+                   <h1>Silver Lakes</h1>
+                   <ul id="nav">
+                         <li ><a href="index.html" class="homeblack" >HOME</a></li>
+                          <li><a href="#" class="homered" >BOOKING</a></li>
+                          <li><a href="services.html" class="homeblack">SERVICES</a></li>
+                          <li><a href="aboutus.html" class="homeblack" >CONTACTS</a></li>
+<li><a href="intro.html" class="homeblack">ABOUTUS</a></li>
+                        </ul>
+           </nav>
+      </header>
+<div class="divider"></div>
+<div class="wrap">
+<form>
+<h2>Book Now!!</h2>
+<input type="text" name="your  name" placeholder="your name"><br>
+<input type="email" name="email" placeholder="your email"><br>
+<input type="number" name="number " placeholder="mobile number"><br>
+<input type="password" name="password"placeholder="password"><br>
+<input type="password" name="confirm password" placeholder="confirm password"><br>
+<h3>Check in Date-</h3>
+<select  name="dbomonth">
+<option >Month</option>
+            <option value="january">Jan</option>
+            <option value="february">feb</option>
+            <option value="march">march</option>
+            <option value="april">april</option>
+            <option value="may">may</option>
+            <option value="june">jun</option>
+            <option value="july">July</option>
+            <option value="august">aug</option>
+            <option value="september">sep</option>
+            <option value="october">oct</option>
+            <option value="november">nov</option>
+            <option value="december">dec</option>
+</select>
+<select name="bdate">
+ <option>Date</option>     
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select>
+<select name="year">
+<option>year</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+</select>
+<h3>Check Out Date-</h3>
+<select  name="dbomonth">
+            <option >month</option>
+            <option value="january">Jan</option>
+            <option value="february">feb</option>
+            <option value="march">march</option>
+            <option value="april">april</option>
+            <option value="may">may</option>
+            <option value="june">jun</option>
+            <option value="july">July</option>
+            <option value="august">aug</option>
+            <option value="september">sep</option>
+            <option value="october">oct</option>
+            <option value="november">nov</option>
+            <option value="december">dec</option>
+</select>
+<select name="bdate">
+            <option>date</option>   
+            <option value="1">1</option>
+            <option value="2">2</option>
+           <option value="3">3</option>
+          <option value="4">4</option>
+           <option value="5">5</option>
+            <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+         <option value="9">9</option>
+           <option value="10">10</option>
+</select>
+
+<select name="year">
+<option>year</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+</select>
+<br>
+<h4>Number of Members:</h4>
+<select name="members">
+             <option>adult</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+           <option value="3">3</option>
+          <option value="4">4</option>
+           <option value="5">5</option>
+            <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+         <option value="9">9</option>
+           <option value="10">10</option>
+ </select>
+<select name="children">
+          <option>children</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+           <option value="3">3</option>
+          <option value="4">4</option>
+           <option value="5">5</option>
+            <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+         <option value="9">9</option>
+           <option value="10">10</option>
+ </select>
+<h3>Number of  rooms required:</h3>
+        <select name="rooms">
+          <option>rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+           <option value="3">3</option>
+          <option value="4">4</option>
+           <option value="5">5</option>
+            <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+         <option value="9">9</option>
+           <option value="10">10</option>
+ </select>
+<br>
+<input type="checkbox">I agree to terms of use
+<br>
+<a><input type ="submit"  value="submitnow"></a>
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
